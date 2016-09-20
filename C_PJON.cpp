@@ -1,4 +1,54 @@
-
+/*-O//\             __     __
+   |-gfo\           |__| | |  | |\ |
+   |!y°o:\          |  __| |__| | \| v4.2
+   |y"s§+`\         multi-master, multi-media communications bus system framework
+  /so+:-..`\        Copyright 2010-2016 by Giovanni Blu Mitolo gioscarab@gmail.com
+  |+/:ngr-*.`\
+  |5/:%&-a3f.:;\
+  \+//u/+g%{osv,,\
+    \=+&/osw+olds.\\
+       \:/+-.-°-:+oss\
+        | |       \oy\\
+        > <
+  _____-| |-___________________________________________________________________
+Credits to contributors:
+- Fred Larsen (Systems engineering, header driven communication, debugging)
+- Pantovich github user (update returning number of packets to be delivered)
+- Adrian Sławiński (Fix to enable SimpleModbusMasterV2 compatibility)
+- SticilFace github user (Teensy porting)
+- Esben Soeltoft (Arduino Zero porting)
+- Alex Grishin (ESP8266 porting)
+- Andrew Grande (Testing, support, bugfix)
+- Mauro Zancarlin (Systems engineering, testing, bugfix)
+- Michael Teeww (Callback based reception, debugging)
+- PaoloP74 github user (Library conversion to 1.x Arduino IDE)
+Bug reports:
+- Zbigniew Zasieczny (header reference inconsistency report)
+- DanRoad reddit user (can_start ThroughSerial bugfix)
+- Remo Kallio (Packet index 0 bugfix)
+- Emanuele Iannone (Forcing SIMPLEX in OverSamplingSimplex)
+- Christian Pointner (Fixed compiler warnings)
+- Andrew Grande (ESP8266 example watchdog error bug fix)
+- Fabian Gärtner (receive function and big packets bugfix)
+- Mauro Mombelli (Code cleanup)
+- Shachar Limor (Blink example pinMode bugfix)
+PJON Standard compliant tools:
+- https://github.com/aperepel/saleae-pjon-protocol-analyzer Logic analyzer by Andrew Grande
+- https://github.com/Girgitt/PJON-python PJON running on Python by Zbigniew Zasieczny
+PJON is a self-funded, no-profit project created and mantained by Giovanni Blu Mitolo
+with the support ot the internet community if you want to see the PJON project growing
+with a faster pace, consider a donation at the following link: https://www.paypal.me/PJON
+__________________________________________________________________________________________
+Copyright 2012-2016 by Giovanni Blu Mitolo gioscarab@gmail.com
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. */
 
 #include "C_PJON.h"
 
